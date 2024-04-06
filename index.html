@@ -102,7 +102,7 @@
           let [lat, lon] = latLonForGrid(gridSquare);
           let marker = L.marker([lat, lon]).addTo(map);
           marker.bindPopup(
-            `<b>Grid:</b> ${gridSquare}<br><b>Altitude:</b> ${altitude}m<br><b>QTH:</b> ${qth}<br><b>Owner:</b> ${owner}<br><b>Sysop:</b> ${sysop}<br><b>Band:</b> ${band}<br><b>NOTE/ECHOLINK:</b> ${note_echolink}<br><b>RPT/ID:</b> ${rptid}<br><b>INPUT:</b> ${input}<br><b>OUTPUT:</b> ${output}`
+            `<b>Grid:</b> ${gridSquare}<br><b>Altitude:</b> ${altitude}<br><b>QTH:</b> ${qth}<br><b>Owner:</b> ${owner}<br><b>Sysop:</b> ${sysop}<br><b>Band:</b> ${band}<br><b>NOTE/ECHOLINK:</b> ${note_echolink}<br><b>RPT/ID:</b> ${rptid}<br><b>INPUT:</b> ${input}MHz<br><b>OUTPUT:</b> ${output}MHz`
           );
         }
       }
